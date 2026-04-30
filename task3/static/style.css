@@ -1,0 +1,98 @@
+
+/* overall page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* heading */
+h3 {
+    color: #2c3e50;
+    font-size: 34px;
+    margin-top: 30px;
+}
+
+/* BIG TEXT AREA (FIXED SIZE) */
+.chat-box {
+    width: 650px !important;
+    height: 220px !important;
+
+    padding: 15px;
+    font-size: 18px;
+
+    border-radius: 12px;
+    border: 2px solid #ccc;
+
+    resize: none;
+
+    display: block;
+    margin: 25px auto;
+
+    line-height: 1.5;
+    overflow-y: auto;
+}
+
+/* focus effect */
+.chat-box:focus {
+    outline: none;
+    border: 2px solid #3498db;
+    box-shadow: 0px 0px 10px rgba(52,152,219,0.5);
+}
+
+/* send button */
+input[type="submit"] {
+    height: 45px;
+    width: 140px;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #3498db;
+    color: white;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+/* hover effect */
+input[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* reply box */
+p {
+    margin-top: 30px;
+    font-size: 18px;
+
+    color: #2c3e50;
+    background-color: white;
+
+    display: inline-block;
+
+    padding: 18px 25px;
+    border-radius: 12px;
+
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+/* list styling */
+ul {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+/* form spacing */
+form {
+    margin-top: 35px;
+}
